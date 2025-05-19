@@ -1,0 +1,21 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Alquiler de Bicicletas",
+  "image": "https://tusitio.com/logo.jpg",
+  "url": "https://tusitio.com",
+  "telephone": "+34 600 000 000",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Calle Falsa 123",
+    "addressLocality": "Ciudad",
+    "addressRegion": "Provincia",
+    "postalCode": "12345",
+    "addressCountry": "ES"
+  },
+  "description": "Servicio profesional de alquiler de bicicletas en [Ciudad] con modelos urbanos, de montaña y eléctricos.",
+  "openingHours": "Mo-Su 08:00-20:00",
+  "priceRange": "€"
+}
+</script>

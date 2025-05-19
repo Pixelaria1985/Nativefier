@@ -1,0 +1,60 @@
+---FUNCIONAMIENTO DE NATIVEFIER---
+
+--Pagina con documentacion de nativefier:
+
+https://github.com/nativefier/nativefier
+
+--INSTALACION--
+
+npm install -g nativefier
+
+--USO--
+
+nativefier --name PepiTV https://www.youtube.com
+
+-------------------------------------------------------------------------------------
+IMPORTANTE:
+Para que funcione el .exe ejemplo colocarlo en el C
+
+--------------------------------------------------------------------------------------
+
+--SEO mejora de la optimizacion de la pagina--
+
+Para una página tenga un mejor SEO (Search Engine Optimization) tener en cuenta :
+
+1- Etiquetas meta relevantes para SEO.
+
+2- Uso adecuado de etiquetas semánticas (main, section, header, footer).
+
+3- Títulos jerárquicos (h1, h2, h3, etc.) correctamente organizados.
+
+4- Etiquetas alt descriptivas en las imágenes.
+
+5- Uso de palabras clave (keywords) en títulos, descripciones y enlaces.
+
+6- Datos estructurados básicos con schema.org (opcional pero recomendable).
+
+7- Agrega un archivo sitemap.xml y robots.txt al dominio.
+
+8- Registra tu sitio en Google Search Console.
+
+9- Usar nombres de archivo e imágenes optimizados (ej: bicicleta-montana.jpg, no biciUno.jpg).
+
+10- Asegúrate de que tu sitio cargue rápido (imágenes optimizadas, uso de caché, etc.).
+
+11- Si tienes múltiples ubicaciones, considera páginas específicas con URLs limpias (/alquiler-bicicletas-avellaneda, etc.).
+
+
+
+
+
+--Archivo robots.txt--
+Este archivo le dice a los motores de búsqueda qué pueden y qué no pueden indexar. Debes colocarlo en la raíz del sitio web (https://tusitio.com/robots.txt).
+Si tienes contenido que no quieres que Google indexe (por ejemplo, un panel admin), puedes añadir líneas como: 
+Disallow: /admin/
+
+--Archivo sitemap.xml--
+Un sitemap.xml ayuda a los motores de búsqueda a entender mejor la estructura del sitio.  Ubícalo también en la raíz del sitio: https://tusitio.com/sitemap.xml.
+
+--Datos estructurados con JSON-LD (schema.org)--
+Esto permite que Google entienda mejor tu contenido y lo muestre con rich snippets (fragmentos enriquecidos). Puedes añadir esto dentro del <head>. Cambia los datos según tu negocio (teléfono, dirección, etc.).
